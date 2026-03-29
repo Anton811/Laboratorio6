@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark pag3" id="nav"></nav>
+
+    <div class="bg-success text-white py-4 text-center">
+      <h2>Construyendo un Mañana Verde</h2>
+    </div>
+
+    <div class="container my-5">
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img
+            src="https://images.unsplash.com/photo-1449156001931-8283327c5914?auto=format&fit=crop&w=500"
+            class="img-fluid rounded shadow"
+            alt="Bosque Vertical"
+          />
+        </div>
+        <div class="col-md-6">
+          <p>
+            La arquitectura sostenible ya no es una opción, sino una necesidad
+            urgente para el siglo XXI. Integrar la vegetación en las fachadas de
+            los edificios no solo mejora la estética urbana, sino que ayuda a
+            regular la temperatura interna.
+          </p>
+
+          <label class="mt-3">Impacto Energético</label>
+          <div class="progress mb-3">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 85%"
+            >
+              85% Ahorro
+            </div>
+          </div>
+          <label>Uso de Agua Pluvial</label>
+          <div class="progress">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 60%"
+            >
+              60% Reciclaje
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1513584684374-8bdb7489feef?auto=format&fit=crop&w=300"
+            class="img-fluid rounded mb-3 shadow-sm"
+            alt="Paneles Solares"
+          />
+          <p>
+            El uso de materiales reciclados y sistemas de energía renovable
+            permite que las estructuras modernas tengan una huella de carbono
+            mínima, diseñando siempre en armonía con el entorno.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=300"
+            class="img-fluid rounded mb-3 shadow-sm"
+            alt="Interior Zen"
+          />
+          <p>
+            Vivir en un entorno diseñado bajo principios ecológicos mejora
+            significativamente la salud mental y la productividad, reduciendo el
+            estrés urbano gracias al diseño biofílico.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="accordion" id="faqEco">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  ¿Qué es el diseño biofílico?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#faqEco"
+              >
+                <div class="accordion-body">
+                  Es la práctica de conectar a las personas con la naturaleza
+                  dentro de los edificios que habitamos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  Materiales comunes
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqEco"
+              >
+                <div class="accordion-body">
+                  Madera certificada, bambú, hormigón reciclado y pinturas
+                  ecológicas sin tóxicos.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
